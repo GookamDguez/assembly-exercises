@@ -1,4 +1,6 @@
 Title Hola
+;@Author : Gabriela Dominguez Hernandez
+;@Country: El Salvador, Centro America
 include irvine32.inc
 .DATA
 	men BYTE "PRIMER PROGRAMA", 0
