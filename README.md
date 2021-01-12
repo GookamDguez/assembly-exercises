@@ -4,3 +4,4 @@ In this repository you will find exercises that I created when I took the "Lengu
 ### Temary
 
 * [Conditional jumps](https://github.com/GookamDguez/assembly-exercises/tree/master/Saltos_condicionales)
+* [Macros](https://github.com/GookamDguez/assembly-exercises/tree/master/macros)
