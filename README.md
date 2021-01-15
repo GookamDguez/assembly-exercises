@@ -5,6 +5,7 @@ In this repository you will find exercises that I created when I took the "Lengu
 * [General purpose records and basic operations](https://github.com/GookamDguez/assembly-exercises/tree/master/registros_y_operaciones_basicas)
   - ADD, SUB
   - DUMPREGS
+  - PTR
 * [Arrays](https://github.com/GookamDguez/assembly-exercises/tree/master/arrays)
   - Indirect Addressing: ESI, EDI
   - PTR
