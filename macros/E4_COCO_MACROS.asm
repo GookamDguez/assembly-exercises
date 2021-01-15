@@ -1,0 +1,52 @@
+;4- Hacer una Macro que tenga dos parametros enteros,
+;1º Ventas, 2º Comisión (%). La macro debera calcular la comision.
+;Ejemplo:
+;Entrada: namemacro Macro 722,5
+;Salida: La comision es: $36.1 
+;* Como calcular comision C=Ventas*Porcentaje de Comision
+
+TITLE COCO
+;@AUTHOR: GABRIELA DOMINGUEZ HERNANDEZ
+;@COUNTRY: EL SALVADOR, CENTRO AMERICA
+INCLUDE IRVINE32.INC
+INCLUDE MACROS.INC
+	;MACRO
+	mCOMISION MACRO VENTAS:REQ, COMI:REQ
+		LOCAL MONTO_V, PCTJ_COM
+		.DATA
+			MONTO_V DWORD VENTAS
+			PCTJ_COM DWORD COMI
+			;CONVERTIDO DWORD 0
+			;CIEN DWORD 100
+		.CODE
+			CALL CRLF
+			;CONV. PCTJ.
+			;MOV EDX,0
+			;MOV EAX, PCTJ_COM
+			;FDIV CIEN
+			;CALL WRITEDEC
+			;MOV CONVERTIDO, EAX
+			CALL CRLF
+			MOV EAX, MONTO_V
+			MUL PCTJ_COM
+	ENDM
+
+	.DATA
+
+	.CODE
+	MAIN PROC
+	CALL CLRSCR
+	CALL CRLF
+	mWrite " NOMBRE: GABRIELA DOMINGUEZ HERNANDEZ"
+	CALL CRLF
+	mWrite "  25-0925-2017"
+	CALL CRLF
+	CALL CRLF
+	mWrite " LA VENTAS: 722 - EL PCTJ.: 5"
+	CALL CRLF
+	mCOMISION 722, 5
+	mWrite " LA COMISION ES: $"
+	CALL WRITEDEC
+
+	MAIN ENDP
+	END MAIN 
