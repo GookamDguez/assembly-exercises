@@ -5,3 +5,6 @@ In this repository you will find exercises that I created when I took the "Lengu
 
 * [Conditional jumps](https://github.com/GookamDguez/assembly-exercises/tree/master/Saltos_condicionales)
 * [Macros](https://github.com/GookamDguez/assembly-exercises/tree/master/macros)
+* [Arrays](https://github.com/GookamDguez/assembly-exercises/tree/master/arrays)
+  - ESI, EDI
+  - PTR
